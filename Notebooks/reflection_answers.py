@@ -79,9 +79,4 @@ Four things, in priority order:
    customer-affecting action is taken."""
 
 
-    print("=" * 72)
-    print(text)
-    print()
-
-print("=" * 72)
-print(f"Total answers stored in `reflection_answers`: {len(reflection_answers)}")
+  
