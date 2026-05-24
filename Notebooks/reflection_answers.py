@@ -1,8 +1,4 @@
-# Section 8 - Student reflection answers (code cell)
-# Each answer is stored as a variable and printed so the rationale lives
-# inside the notebook as executable code, not only in markdown.
-
-answer_1_chosen_model = """Q1. Which model would you present first to a business stakeholder, and why?
+ """Q1. Which model would you present first to a business stakeholder, and why?
 
 Logistic regression. Three reasons grounded in our results:
 
@@ -82,14 +78,7 @@ Four things, in priority order:
    flagged request should still be triaged by an analyst before any
    customer-affecting action is taken."""
 
-reflection_answers = {
-    "Q1_chosen_model": answer_1_chosen_model,
-    "Q2_costly_error": answer_2_costly_error,
-    "Q3_threshold": answer_3_threshold,
-    "Q4_responsible_ai": answer_4_responsible_ai,
-}
 
-for key, text in reflection_answers.items():
     print("=" * 72)
     print(text)
     print()
